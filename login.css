@@ -1,0 +1,87 @@
+#head {
+	display: block;
+	text-align: center;
+	min-width: 80em;
+	background-color: #007A7A;
+	padding-top: .5px;
+	width: 100%;
+ }
+#container{
+	margin: 0 auto;
+	font-family: verdana;
+	width: 80em;
+	height: 30em;
+}
+img{
+	padding-bottom: .2em;
+	width: 7em;
+	height: 5.5em;
+}
+#login{
+	float: left;
+	width: 27.7em;
+	border-right: solid gainsboro .1em;
+	margin-left: 12em;
+}
+#register{
+	width: 35em;
+	float: right;
+}
+#login ul, #register ul{
+	list-style: none;
+	margin-left: -2.5em;
+}
+li{
+	padding-bottom: 1em;
+}
+#pw{
+	margin-bottom: 3em;
+}
+h2{
+	color: #007A7A;
+}
+#submitR, #submitL{
+	float: right;
+	width: 6em;
+	height: 3em;
+	border-radius: 6px 6px 6px 6px ;
+	background-color: #007A7A;
+	color: white;
+	font-weight: bold;
+}
+#submitR{
+	margin-right: 20em;
+}
+#submitL{
+	margin-right: 11.3em;
+	margin-bottom: 1em;
+}
+.error{
+	display: none;
+}
+.error_show{
+	color: red;
+	font-size: small;
+}
+#regError{
+	float: right;
+	margin-right: 21em;
+	margin-top: 1em;
+}
+#loginError{
+	float: left;
+	margin-left: 6em;
+	margin-top: -2em;
+}
+input.invalid{
+	border: 2px solid red;
+}
+input.valid{
+	border: 2px solid green;
+}
+
+
+
+
+
+

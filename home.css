@@ -1,0 +1,225 @@
+/* final project css workspace*/
+
+a:link{
+	color:#003366;
+	text-decoration: none;
+}
+
+a:visited{
+	color:#003366;
+ 	text-decoration: none;
+}
+
+a:hover{
+	color: #989898;
+}
+
+html{
+	background-color: #007A7A;
+}
+
+#container{
+	margin: 0 auto 0;
+	height: 70em;
+	width: 80em;
+	overflow: auto;
+}
+
+#logo{
+	float: left;
+	margin: 1em 1em;
+	width: 13.75em;
+	height: 11.25em;
+}
+
+#title{
+	float: left;
+	width: 41em;
+	height: 6.5em;
+	background-color: #FFE2AA;
+	color:#003366;
+	margin: 1em 1em;
+}
+h1{
+	text-align: center;
+	font-size: 5em;
+	margin-top: -.1em;
+	letter-spacing:7px;
+	font-family: Century Gothic, Verdana;
+}
+
+#description{
+	float: left;
+	width: 44em;
+	height: 5em;
+	margin: -5em 17.5em;
+	color: #FFE2AA;
+	font-family: Verdana;
+	text-align: center;
+	font-size: .95em;
+}
+
+#info{
+	float: left;
+	margin: auto 1em;
+	padding: .6em;
+	width: 14.7em;
+	height: 52em;
+	background-color: #FFE2AA;
+	color:#003366;
+	font-family: Verdana;
+	font-size: .95em;
+}
+
+#info_title{
+	font-size: 1.5em;
+	text-align: center;
+	border: dotted 2px #003366;
+}
+
+dt{
+	font-size: 1em;
+	text-decoration: underline;
+	line-height: 100%;
+}
+
+#login{	
+	text-align: center;
+	float: right;
+	margin: -13em 5em 0 0;
+	width: 18em;
+	height: 11.5em;
+	padding: 1em 0 0 1em;
+	background-color: #FFE2AA;
+	color:#003366;
+	font-family: Verdana;
+	font-size: small;
+	border-radius: 25px;
+}
+
+#loginTable{
+	margin-top: .5em;
+}
+.btn{
+	border-radius: 5px 6px 6px 6px ;
+	float: right;
+	height: 2em;
+	width: 8.6em;
+	margin-right: 2.2em;
+	background-color: #007A7A;
+	color: white;
+}
+
+#welcome{
+	text-align: center;
+	float: right;
+	margin: -10em 4em 0 0;
+	width: 17em;
+	height: 2em;
+	padding-top: 1em;
+	background-color: #FFE2AA;
+	color: #003366;
+	font-family: Verdana;
+	border-radius: 25px;
+}
+#logout{
+	float: right;
+	height: 2em;
+	width: 5em;
+	margin-right: 3em;
+	margin-top: .6em;
+	background-color: #007A7A;
+	border: none;
+	color: white;
+	cursor: pointer;
+}
+
+#MB{
+	margin: 1em .5em 0 .5em;
+	float: left;
+	padding: 1em;
+	width: 42.5em;
+	height: 11.33em;
+	background-color: #FFB8B8;
+	color:#003366;
+	text-align: center;
+	font-family: Verdana;
+	font-size: .9em;
+}
+
+#MB_title{
+	font-size: 30px;
+}
+
+#Big5_title{
+	font-size: 80px;
+	font-family: arial black, verdana;
+}
+
+#AB_title{
+	font-size: 40px;
+	font-family: palatino linotype, verdana;
+}
+
+td{
+	color:#003366;
+	text-align: center;
+	font-family: Verdana;
+	font-size: 15px;
+}
+#Big5{
+	float: left;
+	margin: 3em 0 0 .5em;
+	padding: 1em;
+	width: 42.5em;
+	height: 12.33em;
+	background-color: #80CC80;
+	color:#003366;
+	text-align: center;
+	font-family: Verdana;
+	font-size: .9em;
+}
+
+#AB{
+	float: left;
+	margin: 3em 0 0 .5em;
+	width: 44.5em;
+	height: 14.33em;
+	background-color: #B8B8FF;
+	color:#003366;
+	text-align: center;
+	font-family: Verdana;
+	font-size: .9em;
+}
+
+#videos{
+	float: right;
+	margin: -29em 2em 0 0;
+	width: 19em;
+	height: 25em;
+}
+#vid1{
+	margin-top: 1em;
+}
+
+#vid2, #vid3{
+	margin-top: 4em;
+}
+
+#videos h2{
+	border-bottom: solid;
+	font-family: verdana;
+	color: #FFE2AA;
+}
+
+#footer{
+	text-align: center;
+	margin: 88em auto 0 auto;
+	width: 98%;
+	height: 60px;
+	color:#003a74;
+	font-family: Verdana;
+	letter-spacing: 3px;
+	font-size: 12px;
+	border-top: solid .1em;
+}
